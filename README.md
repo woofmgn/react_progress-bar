@@ -1,4 +1,4 @@
-#№ react_progress-bar
+## react_progress-bar
 
 Прогресс-бар на React + TypeScript
 
