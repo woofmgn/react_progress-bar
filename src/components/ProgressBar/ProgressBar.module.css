@@ -1,0 +1,58 @@
+.section {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.count {
+  align-self: center;
+  color: #000;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #929090;
+  border-radius: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 40px;
+  background-color: green;
+}
+
+.btnContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btnStart {
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(148, 222, 148);
+}
+
+.btnStop {
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(235, 128, 107);
+}
+
+.btnStart:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.4);
+}
+
+.btnStop:hover {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.4);
+}
